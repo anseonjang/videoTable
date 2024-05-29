@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>75p-table1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- table>tr>td*2 (enter) -->
+    <table>
+        <!-- table : 표의 컨테이너,tr : 행, td : 열  -->
+        <caption class="blind">공연</caption>
+        <thead>
+            <tr>
+                <th colspan="3">공연요금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>구분</td>
+                <td>S석</td>
+                <td>VIP석</td>
+            </tr>
+            <tr>
+                <td>성인</td>
+                <td>30,000원</td>
+                <td>50,000원</td>
+            </tr>
+
+            <tr>
+                <td>청소년</td>
+                <td>10,000원</td>
+                <td>20,000원</td>
+            </tr>
+            <tr>
+                <td>소인</td> 
+                <td colspan="2" class="red" >일반 요금의 50%</td>
+            </tr>
+            <!-- tr>td*3 -->
+
+            <tr>
+                <td rowspan="2">공연시간</td>
+                <td>1회</td>
+                <td>13:00~15:00</td>
+            </tr>
+            <tr>
+
+                <td>2회</td>
+                <td>15:00~17:00</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+</body>
+
+</html>
